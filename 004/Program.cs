@@ -21,5 +21,6 @@ if(numberC > numberB)
      {
      maxNumber = numberC;
      } 
+     
   Console.Write("Наибольшее число - ");
   Console.Write(maxNumber);
