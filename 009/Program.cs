@@ -1,9 +1,12 @@
 ﻿// Удалить вторую цифру трёхзначного числа
 
-Console.Write("Введите  число - ");
-int numberA = Int32.Parse(Console.ReadLine());
-string string1 = numberA.ToString();
-Console.Write("Вторая  цифра введеного числа - ");
+int number = new Random().Next(100, 999);
+Console.WriteLine("Сгенерированное число - ");
+Console.WriteLine(number);
+string string1 = number.ToString();
 
-index.ToDelete string1[2];
-Console.Write();
+int numberA1 = Int32.Parse(string1[0].ToString());
+Console.Write(numberA1);
+int numberB2 = Int32.Parse(string1[2].ToString());
+Console.Write(numberB2);
+
