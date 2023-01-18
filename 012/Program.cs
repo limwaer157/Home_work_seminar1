@@ -9,17 +9,17 @@ int number = Int32.Parse(Console.ReadLine());
  }
     
     else
-    {
+ {
         while (number > 999 )
-{
+ {
     number = number - 1000;
-}
+ }
 if (number <= 999)
-{
+ {
     number = number / 100;
-}
+ }
 Console.WriteLine(number);
-    }
+}
  
 
 
